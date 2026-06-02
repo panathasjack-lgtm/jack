@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional hotel photography and private photo shoots in Hersonissos, Crete">
+  <title>Photofantastic | Hotel Photography in Hersonissos, Crete</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <style>
+    .hero-bg {
+      background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)), 
+                        url('https://images.unsplash.com/photo-1587502536900-baf0c3a3e1b9?ixlib=rb-4.0.3&auto=format&fit=crop&q=80');
+      background-size: cover;
+      background-position: center;
+    }
+    .portfolio-img {
+      transition: all 0.4s ease;
+      height: 380px;
+      object-fit: cover;
+    }
+    .portfolio-img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.4);
+    }
+  </style>
+</head>
+<body class="bg-gray-50 font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md fixed w-full z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-3xl font-bold text-amber-600">Photofantastic</h1>
+      <div class="hidden md:flex space-x-8 text-lg">
+        <a href="#services" class="hover:text-amber-600 transition">Services</a>
+        <a href="#portfolio" class="hover:text-amber-600 transition">Portfolio</a>
+        <a href="#about" class="hover:text-amber-600 transition">About</a>
+        <a href="#contact" class="hover:text-amber-600 transition">Contact</a>
+      </div>
+      <a href="#contact" class="bg-amber-600 text-white px-6 py-3 rounded-full hover:bg-amber-700 transition font-medium">
+        Book a Shoot
+      </a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero-bg h-screen flex items-center text-white">
+    <div class="max-w-4xl mx-auto text-center px-6 pt-20">
+      <p class="text-amber-400 text-xl mb-2 tracking-widest">HERSONISSOS • CRETE</p>
+      <h2 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">Capture Your<br>Vacation Magic</h2>
+      <p class="text-xl md:text-2xl mb-10 max-w-2xl mx-auto">Professional hotel photography & unforgettable private shoots in Hersonissos</p>
+      <a href="#contact" class="inline-block bg-amber-600 hover:bg-amber-700 text-white text-xl px-12 py-6 rounded-full font-semibold transition">
+        Book Your Session
+      </a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-4">Our Services</h2>
+      <p class="text-center text-gray-600 mb-12 max-w-md mx-auto">We come directly to your hotel in Hersonissos</p>
+      
+      <div class="grid md:grid-cols-3 gap-10">
+        <div class="bg-white border border-gray-100 shadow-xl rounded-3xl p-10 hover:-translate-y-3 transition group">
+          <i class="fa-solid fa-hotel text-5xl text-amber-600 mb-6 group-hover:scale-110 transition"></i>
+          <h3 class="text-2xl font-semibold mb-4">Hotel Guest Photography</h3>
+          <p class="text-gray-600">Beautiful photos in your room, balcony, pool, or hotel grounds.</p>
+        </div>
+        
+        <div class="bg-white border border-gray-100 shadow-xl rounded-3xl p-10 hover:-translate-y-3 transition group">
+          <i class="fa-solid fa-camera text-5xl text-amber-600 mb-6 group-hover:scale-110 transition"></i>
+          <h3 class="text-2xl font-semibold mb-4">Private Photo Shoots</h3>
+          <p class="text-gray-600">Couple, engagement, family, or solo lifestyle sessions.</p>
+        </div>
+        
+        <div class="bg-white border border-gray-100 shadow-xl rounded-3xl p-10 hover:-translate-y-3 transition group">
+          <i class="fa-solid fa-sun text-5xl text-amber-600 mb-6 group-hover:scale-110 transition"></i>
+          <h3 class="text-2xl font-semibold mb-4">Golden Hour Sessions</h3>
+          <p class="text-gray-600">Stunning sunset and beach shoots during magic hour.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="py-24 bg-gray-100">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-4">Our Work in Hersonissos</h2>
+      <p class="text-center text-gray-600 mb-12">Real moments captured for happy guests</p>
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <img src="images/IMG_1815.JPG" 
+             class="portfolio-img rounded-3xl shadow-lg w-full" 
+             alt="Family making heart gesture in Hersonissos garden" 
+             loading="lazy">
+
+        <img src="images/IMG_1133.jpg" 
+             class="portfolio-img rounded-3xl shadow-lg w-full lg:col-span-2" 
+             alt="Beautiful sunset couple photoshoot collage in Crete" 
+             loading="lazy">
+
+        <img src="images/IMG_4620.JPG" 
+             class="portfolio-img rounded-3xl shadow-lg w-full" 
+             alt="Playful family beach photoshoot at golden hour" 
+             loading="lazy">
+
+        <img src="images/IMG_7311.JPG" 
+             class="portfolio-img rounded-3xl shadow-lg w-full" 
+             alt="Portrait of woman by the pool in Hersonissos" 
+             loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-24 bg-white">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold mb-8">About Photofantastic</h2>
+      <p class="text-lg text-gray-600 leading-relaxed">
+        We are a local photography team based in <strong>Hersonissos, Crete</strong>. 
+        We help hotel guests create beautiful, professional memories during their vacation.
+        From relaxed room portraits to magical sunset shoots — we come to you.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-24 bg-gray-900 text-white">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Let's Create Beautiful Memories</h2>
+      
+      <form class="bg-gray-800 p-10 rounded-3xl shadow-2xl" onsubmit="alert('Thank you! We will contact you shortly.'); return false;">
+        <div class="grid md:grid-cols-2 gap-6">
+          <input type="text" placeholder="Your Name" class="bg-gray-700 p-4 rounded-2xl focus:outline-none focus:ring-2 focus:ring-amber-500" required>
+          <input type="tel" placeholder="WhatsApp / Phone" class="bg-gray-700 p-4 rounded-2xl focus:outline-none focus:ring-2 focus:ring-amber-500" required>
+        </div>
+        <input type="email" placeholder="Email Address" class="w-full mt-6 bg-gray-700 p-4 rounded-2xl focus:outline-none focus:ring-2 focus:ring-amber-500">
+        
+        <div class="mt-6">
+          <label class="block text-sm mb-2 text-gray-400">Preferred Date & Hotel</label>
+          <input type="text" placeholder="e.g. 15 June 2026 - Hilton or Mitsis" class="w-full bg-gray-700 p-4 rounded-2xl focus:outline-none focus:ring-2 focus:ring-amber-500">
+        </div>
+        
+        <button type="submit" class="w-full mt-10 bg-amber-600 hover:bg-amber-700 py-6 text-xl font-semibold rounded-2xl transition">
+          Send Booking Request
+        </button>
+      </form>
+
+      <div class="text-center mt-12 text-gray-400 space-y-3">
+        <p class="text-xl">📍 Hersonissos, Crete, Greece</p>
+        <p class="text-2xl font-semibold text-amber-500">WhatsApp: 697 724 4788</p>
+        <p class="text-xl">
+          📧 Email: <span class="text-amber-500 font-semibold">Photofan.crete@gmail.com</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-gray-400 py-12">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-amber-600 mb-4">Photofantastic</h2>
+      <p>Professional Hotel Photography • Hersonissos, Crete</p>
+      <p class="mt-6 text-sm">&copy; 2026 Photofantastic • All Rights Reserved</p>
+    </div>
+  </footer>
+</body>
+</html>
